@@ -28,7 +28,7 @@ public class HomeController {
 	@RequestMapping("/loginform")
 	public String loginForm(@ModelAttribute("login") LoginUser user,Model m) {
 		// Fetching form data
-	
+	String a="Just a data";
 	return "loginuser";
 		
 	}
